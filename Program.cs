@@ -60,3 +60,38 @@
 //     
 //     Console.WriteLine();
 // }
+
+/*
+ * Генерація простих чисел:
+ * Напишіть програму, яка генерує прості числа від 1 до заданого користувачем числа.
+ * Просте число - це число, яке ділиться лише на 1 і на себе.
+ */
+
+Console.Write("Enter the upper limit: ");
+
+if (!int.TryParse(Console.ReadLine(), out int limit) || limit < 2)
+{
+    Console.WriteLine("Incorrect number entered.");
+    return;
+}
+
+Console.Write("Prime numbers: ");
+
+for (int number = 2; number <= limit; number++)
+{
+    bool isPrime = true;
+
+    for (int i = 2; i <= number / 2; i++)
+    {
+        if (number % i == 0)
+        {
+            isPrime = false;
+            break;
+        }
+    }
+
+    if (isPrime)
+    {
+        Console.Write(number + ", ");
+    }
+}
