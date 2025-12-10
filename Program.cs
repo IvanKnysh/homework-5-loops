@@ -67,31 +67,61 @@
  * Просте число - це число, яке ділиться лише на 1 і на себе.
  */
 
-Console.Write("Enter the upper limit: ");
+// Console.Write("Enter the upper limit: ");
+//
+// if (!int.TryParse(Console.ReadLine(), out int limit) || limit < 2)
+// {
+//     Console.WriteLine("Incorrect number entered.");
+//     return;
+// }
+//
+// Console.Write("Prime numbers: ");
+//
+// for (int number = 2; number <= limit; number++)
+// {
+//     bool isPrime = true;
+//
+//     for (int i = 2; i <= number / 2; i++)
+//     {
+//         if (number % i == 0)
+//         {
+//             isPrime = false;
+//             break;
+//         }
+//     }
+//
+//     if (isPrime)
+//     {
+//         Console.Write(number + ", ");
+//     }
+// }
 
-if (!int.TryParse(Console.ReadLine(), out int limit) || limit < 2)
-{
-    Console.WriteLine("Incorrect number entered.");
-    return;
-}
 
-Console.Write("Prime numbers: ");
-
-for (int number = 2; number <= limit; number++)
-{
-    bool isPrime = true;
-
-    for (int i = 2; i <= number / 2; i++)
-    {
-        if (number % i == 0)
-        {
-            isPrime = false;
-            break;
-        }
-    }
-
-    if (isPrime)
-    {
-        Console.Write(number + ", ");
-    }
-}
+/*
+ * Генерація фібоначчівської послідовності:
+ * Напишіть програму, яка генерує перші N чисел Фібоначчі.
+ * Послідовність Фібоначчі починається з 0 і 1,
+ * а кожне наступне число є сумою двох попередніх чисел у послідовності.
+ */
+ 
+// Console.Write("Enter how many Fibonacci numbers to generate: ");
+//
+// if (!int.TryParse(Console.ReadLine(), out int n) || n <= 0)
+// {
+//     Console.WriteLine("Incorrect number entered.");
+//     return;
+// }
+//
+// long a = 0;
+// long b = 1;
+//
+// Console.WriteLine("Fibonacci numbers:");
+//
+// for (int i = 1; i <= n; i++)
+// {
+//     Console.Write(a + " ");
+//
+//     long с = a + b;
+//     a = b;
+//     b = с;
+// }
