@@ -33,3 +33,30 @@
 // decimal average = sum / numberOfEmployees;
 //
 // Console.WriteLine($"Average salary: {average}");
+
+
+
+/*
+ * Побудова графіку зірочками:
+ * Напишіть програму, яка будує графік за допомогою зірочок.
+ * Користувач повинен ввести кількість рядків графіка.
+ * Кожен рядок графіка має містити відповідну кількість зірочок.
+ */
+
+// Console.Write("Enter the number of rows: ");
+//
+// if (!int.TryParse(Console.ReadLine(), out int rows) || rows <= 0)
+// {
+//     Console.WriteLine("Incorrect number of rows entered.");
+//     return;
+// }
+//
+// for (int i = 1; i <= rows; i++)
+// {
+//     for (int j = 0; j < i; j++)
+//     {
+//         Console.Write("*");
+//     }
+//     
+//     Console.WriteLine();
+// }
