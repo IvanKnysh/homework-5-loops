@@ -125,3 +125,23 @@
 //     a = b;
 //     b = с;
 // }
+
+
+/*
+ * Генерація таблиці множення для конкретного числа:
+ * Напишіть програму, яка запитує в користувача число,
+ * а потім генерує таблицю множення для цього числа від 1 до 10.
+ */
+
+// Console.Write("Enter a number: ");
+//  
+// if (!int.TryParse(Console.ReadLine(), out int number))
+// {
+//     Console.WriteLine("Incorrect number entered.");
+//     return;
+// }
+//
+// for (int i = 1; i <= 10; i++)
+// {
+//     Console.WriteLine($"{number} × {i} = {number * i}");
+// }
