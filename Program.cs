@@ -145,3 +145,38 @@
 // {
 //     Console.WriteLine($"{number} × {i} = {number * i}");
 // }
+
+
+/*
+ * Перевірка на простоту:
+ * Напишіть програму, яка перевіряє, чи є задане користувачем число простим.
+ * Число вважається простим, якщо воно ділиться лише на 1 і на себе.
+ */
+ 
+// Console.Write("Enter a number: ");
+//
+// if (!int.TryParse(Console.ReadLine(), out int number) || number < 2)
+// {
+//     Console.WriteLine("Incorrect number entered.");
+//     return;
+// }
+//
+// bool isPrime = true;
+//
+// for (int i = 2; i <= number / 2; i++)
+// {
+//     if (number % i == 0)
+//     {
+//         isPrime = false;
+//         break;
+//     }
+// }
+//
+// if (isPrime)
+// {
+//     Console.WriteLine("True");
+// }
+// else
+// {
+//     Console.WriteLine("False");
+// }
