@@ -128,6 +128,51 @@
 
 
 /*
+ * Калькулятор оплати праці за годину:
+ * Напишіть програму, яка запитує в користувача кількість годин,
+ * працюваних за день, та розмір годинної ставки.
+ * Після введення значень програма має обчислити та вивести оплату за день.
+ */
+
+// Console.Write("Enter the number of hours per day: ");
+//
+// if (!double.TryParse(Console.ReadLine(), out double hours) || hours <= 0)
+// {
+//     Console.WriteLine("Incorrect number entered.");
+//     return;
+// }
+//
+// Console.Write("Enter your hourly rate: ");
+//
+// if (!double.TryParse(Console.ReadLine(), out double rate) || rate <= 0)
+// {
+//     Console.WriteLine("Incorrect rate entered.");
+//     return;
+// }
+//
+// double finalRate = 0;
+//
+// if (hours <= 8)
+// {
+//     finalRate = rate;
+// }
+// else if (hours <= 12)
+// {
+//     finalRate = rate + 20;
+// }
+// else if (hours <= 15)
+// {
+//     finalRate = rate + 50;
+// }
+//
+// double payment = hours * finalRate;
+//
+// Console.WriteLine($"Rate: {finalRate}$ per hour");
+// Console.WriteLine($"Payment per day: {payment}$");
+
+
+
+/*
  * Генерація таблиці множення для конкретного числа:
  * Напишіть програму, яка запитує в користувача число,
  * а потім генерує таблицю множення для цього числа від 1 до 10.
